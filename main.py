@@ -22,6 +22,7 @@ def decodeSentence(codebook):
   for number in sentence:
     if number in codeBook:
      print(codeBook.get(number))
+     #FIXME get this to decode by finding the key of the value
 
 
 
